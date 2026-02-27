@@ -1,5 +1,3 @@
-import {defineconfig} from 'vite'
-import react from '@vitejs/plugin-react'
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
@@ -24,8 +22,6 @@ export default defineConfig([
         sourceType: 'module',
       },
     },
-    plugins: [react()],
-    base: '/luxivo-app/', 
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
