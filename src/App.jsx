@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { Routes, Route, HashRouter, } from "react-router-dom";
 import { Footer } from "./componantes/Footer/Footer";
 import { Home } from "./componantes/Main-pages/Home";
 import { Nav } from "./componantes/navbar/nav";
@@ -19,7 +19,7 @@ import { Blog_Details } from "./componantes/Main-pages/Blog_Details";
 export function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -37,7 +37,7 @@ export function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
