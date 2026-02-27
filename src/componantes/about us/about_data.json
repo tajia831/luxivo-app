@@ -1,0 +1,77 @@
+{"about":[
+  {
+    "image": "/assets/room-grid/room-grid2.webp",
+    "title": "Exclusive Deluxe Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+  {
+    "image": "/assets/room-grid/room-grid3.webp",
+    "title": "Double Suite Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+  {
+    "image": "/assets/room-grid/room-grid4.webp",
+    "title": "Signature Suites Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+    {
+      "image": "/assets/room-grid/room-grid6.webp",
+      "title": "Royal Prestige Suite",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    }
+],
+
+
+    "about_slid":[
+  {
+    "image": "/assets/about/slider1.webp"
+  },
+  {
+    "image": "/assets/about/slider2.webp"
+  },
+  {
+    "image": "/assets/about/slider3.webp"
+  },
+  {
+    "image": "/assets/about/slider1.webp"
+  },
+  {
+    "image": "/assets/about/slider2.webp"
+  },
+  {
+    "image": "/assets/about/slider3.webp"
+  }
+],
+
+
+"cards": [
+    {
+      "image": "/assets/about/icon-1.webp",
+      "title": "Five Star Hotel",
+      "description": "Our luxury and best hotel & resort foryou. Phasellus enim libero, blandit vel sapien vitae"
+    },
+    {
+      "image": "/assets/about/icon-2.webp",
+      "title": "Maintaining Your Safety",
+      "description": "Your safety and well-being are our highest priorities. We follow strict cleaning protocols,"
+    },
+    {
+      "image": "/assets/about/icon-3.webp",
+      "title": "Change Room",
+      "description": "You will have the right to change the room within 24 hours from the time of booking"
+    }
+  ]
+
+}

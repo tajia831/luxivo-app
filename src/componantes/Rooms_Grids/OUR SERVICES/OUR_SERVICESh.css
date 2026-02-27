@@ -1,0 +1,52 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --para-color: #929292;
+}
+.services{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.service-left{
+    padding-right: 20px;
+    text-align: right;
+}
+.left-icon{
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+.c-icon{
+    margin-bottom: 25px;
+}
+.l-text{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+}
+.l-para{
+    font-size: 17px;
+    color: var(--para-color);
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.center-img{
+    position: relative;
+}
+.cen-img-bg{
+    width: 100%;
+    border-radius: 220px 220px 0 0;
+}
+.center-shape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.service-right{
+    text-align: left;
+    padding-left: 20px;
+}

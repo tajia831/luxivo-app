@@ -1,0 +1,81 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.serv-con{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.ser-con-img{
+    margin-bottom: 55px;
+    border-radius: 30px;
+}
+.ser-h3{
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 1.27em;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+.ser-p{
+    font-size: 18px;
+    color: var(--para-color);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.ser-row-img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.ser-ul{
+    margin-bottom: 40px;
+}
+.ser-check-list li{
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--primary-color);
+    list-style: none;
+    margin-bottom: 18px;
+}
+.ser-check-list li span{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.accordion{
+    padding-bottom: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.accordion-1{
+    padding-bottom: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    padding-top: 15px;
+}
+.ser-p-1{
+    font-size: 18px;
+    color: var(--para-color);
+    line-height: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+.accordion-a{
+    padding-bottom: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    border-bottom: 1px solid var(--border-color);
+}

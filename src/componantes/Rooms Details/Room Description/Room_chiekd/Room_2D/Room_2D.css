@@ -1,0 +1,41 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --para-color: #929292;
+}
+.cancellation{
+    padding-top: 20px;
+}
+.Room-Features{
+    padding-top: 35px;
+    border-top: 1px solid var(--border-color);
+}
+.features-para{
+    color: var(--text-color);
+    font-size: 17px;
+    position: relative;
+    padding-left: 25px;
+}
+.features-para::before{
+    position: absolute;
+    top: 11px;
+    left: 0;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--text-color);
+}
+.features-img{
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*---------slid-img-----------*/
+.fea_slid_img{
+    border-radius: 30px;
+}

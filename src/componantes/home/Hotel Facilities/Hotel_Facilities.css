@@ -1,0 +1,104 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.facilities{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.hotel-img-box{
+    position: relative;
+}
+.hotel-images{
+    position: relative;
+    max-width: 455px;
+}
+.hotel-images img{
+    border-radius: 30px;
+}
+.hotel-images::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 29, 34, 0.6);
+    border-radius: 30px;
+}
+.shape{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.hotel-img-two{
+    position: absolute;
+    bottom: 75px;
+    left: 240px;
+    
+}
+.hotel-img-two img{
+    border-radius: 30px;
+    border: 5px solid #fff;
+}
+.hotel-content-box{
+    padding-left: 38px;
+}
+.hotel-section-title h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+}
+.hotel-content-box p{
+    margin-bottom: 35px;
+    color: var(--primary-color);
+    line-height: 30px;
+    font-size: 17px;
+}
+.hotel-icon-box{
+    margin-bottom: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+    padding: 30px;
+}
+.right-botder{
+    border-right: 1px solid var(--border-color);
+}
+.h-left-box{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+}
+.h-left-box h4{
+    font-size: 24px;
+    line-height: 1.3em;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+.h-right-box{
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+.h-right-box h4{
+    font-size: 24px;
+    line-height: 1.3em;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}

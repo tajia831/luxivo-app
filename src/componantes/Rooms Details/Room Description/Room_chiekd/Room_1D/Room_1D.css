@@ -1,0 +1,61 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --para-color: #929292;
+}
+/*-------------Room_1D-------------*/
+.contant-h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}
+.contant-paragrap{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: var(--para-color);
+    line-height: 30px;
+}
+.check-con-item{
+    margin-bottom: 25px;
+    padding-left: 0;
+}
+.check-con-item li{
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+    color: var(--text-color);
+    font-size: 17px;
+    line-height: 26px;
+    list-style: none;
+}
+.check-con-item li::before{
+    position: absolute;
+    top: 11px;
+    left: 0;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+.se-box{
+    margin-bottom: 15px;
+}
+.se-box h5{
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+.se-box h5 span{
+    font-size: 22px;
+    margin-right: 8px;
+    color: var(--primary-color);
+}

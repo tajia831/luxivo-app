@@ -1,0 +1,87 @@
+{
+
+    "serviceSingle": {
+    "headerImage": "/assets/service-single1.webp",
+    "title": "Gym Training Grounds",
+    "description1": "We offer a wide range of services to our guests, including a restaurant, bar, tennis court, swimming pool, beauty salon, and fitness center. We are improving the hotel services for your guests by providing the facilities that make them feel like they are in their own homes. In-house restaurants and bars that serve a variety of cuisine and beverages. Room packages sometimes include meal discounts or access to special events,",
+    "description1-1": "such as wine tastings. There are many variations of passages of available, but the majority have suffered alteration in some form, by injected or words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+    
+    "subTitle1": "Service Overview",
+    "description2": "We offer a wide range of services to our guests, including a restaurant, bar, tennis court, swimming pool, beauty salon, and fitness center. We are improving the hotel services for your guests by providing the facilities that make them feel like they are in their own homes. In-house restaurants and bars that serve a variety of cuisine and beverages. Room packages sometimes include meal discounts or access to special events.",
+
+    "rowImages": [
+      "/assets/service-single2.webp",
+      "/assets/service-single3.webp"
+    ],
+
+    "description3": "We offer a wide range of services to our guests, including a restaurant, bar, tennis court, swimming pool, beauty salon, and fitness center. We are improving the hotel services for your guests by providing the facilities that make them feel like they are in their own homes. In-house restaurants and bars that serve a variety of cuisine and beverages. Room packages sometimes include meal discounts or access to special events",
+    "featuresTitle": "All Features"
+  },
+
+
+
+
+
+  "checklist": [
+    {
+      "text": " New Recipe"
+    },
+    {
+      "text": " Housekeeping"
+    },
+    {
+      "text": "Concierge"
+    },
+    {
+      "text": "Laundry & Dry Cleaning"
+    },
+    {
+      "text": "Coffee and station"
+    },
+    {
+      "text": "Free wi - fi"
+    },
+    {
+      "text": "Room safe"
+    },
+    {
+      "text": "Workspace"
+    },
+    {
+      "text": "Closet & Hangers"
+    },
+    {
+      "text": "Air Condition"
+    },
+    {
+      "text": "Blackout curtains"
+    },
+    {
+      "text": "Telephone"
+    },
+    {
+      "text": "En-Suite Bathroom"
+    },
+    {
+      "text": "Free Breakfast"
+    },
+    {
+      "text": "Restaurant bar"
+    },
+    {
+      "text": "Soundproofing"
+    },
+    {
+      "text": "Bathrobes & Slippers"
+    },
+    {
+      "text": "USB Charging ports"
+    },
+    {
+      "text": "Balcony Or View Options"
+    },
+    {
+      "text": "Swimming Pool"
+    }
+  ]
+}

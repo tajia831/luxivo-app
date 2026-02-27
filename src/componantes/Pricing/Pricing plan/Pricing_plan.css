@@ -1,0 +1,130 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.Pricing-plan{
+    padding-top: 120px;
+}
+/*-----------cards------------*/
+.Pricing_cards{
+    margin-bottom: 90px;
+    margin-top: 80px;
+}
+.price-item{
+    margin-bottom: 40px;
+    background-color: #F8F8F8;
+    border-radius: 30px;
+    padding: 20px;
+    transition: all 0.4s;
+}
+.price-item:hover {
+    background: var(--heading-color);
+}
+.price-item:hover .plan{
+    color: #fff;
+}
+.price-item:hover .card-price{
+    color: #fff;
+}
+.price-item:hover .crd-time{
+    color: #fff;
+}
+.price-item:hover .crd-para{
+    color: #d8d8dc;
+}
+.price-header{
+    padding: 30px;
+    text-align: center;
+}
+.plan{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    margin-bottom: 12px;
+}
+.card-price{
+    font-size: 36px;
+    line-height: 1.27em;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+.crd-time{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+.crd-para{
+    font-size: 18px;
+    color: var(--para-color);
+    line-height: 30px;
+}
+.price-body{
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    transition: all 0.6s;
+}
+.price-item:hover .price-body{
+    background: var(--heading-color);
+    border: 1px solid var(--primary-color);
+}
+.pric-check{
+    margin-bottom: 35px;
+    padding: 0 30px;
+}
+.pric-check li{
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--text-color);
+    list-style: none;
+    margin-bottom: 18px;
+}
+.price-item:hover .pric-check li{
+    color: #fff;
+}
+.pric-check li span{
+    margin-right: 5px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.price-btn{
+    width: 100%;
+    text-align: center;
+    padding: 15px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background: var(--primary-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    transition: all 0.3s;
+}
+.price-item:hover .price-btn{
+    background: #fff;
+    color: var(--primary-color);
+}
+.price-btn span{
+    margin-left: 5px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.price-btn:hover span {
+  transform: rotate(-45deg);
+}

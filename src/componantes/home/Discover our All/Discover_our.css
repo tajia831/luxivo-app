@@ -1,0 +1,154 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.Discover{
+    padding-top: 110px;
+    padding-bottom: 170px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Discover::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 25, 33, 0.6);
+}
+.discover-text{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.discover-section-title h2{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+/*--------------Discover_slider---------------*/
+.Discover-slick{
+    display: flex;
+    justify-content: center;
+}
+.Discover-rtack{
+    width: 95%;
+}
+.dis-btn{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+.disco-slid-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 15px;
+}
+.disco-slid-btn::after,
+.disco-slid-btn::before{
+    content: "";
+    margin: auto;
+    display: inline-block;
+    width: 90%;
+    height: 1px;
+    background-color: var(--border-color);
+}
+.dis-btn{
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.dis-btn span{
+    display: flex;
+    align-items: center;
+}
+.dis-btn:hover{
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+/*---------slider-box--------------*/
+.discover-slide-item{
+    width: 352px;
+    padding: 40px;
+    border-radius: 30px;
+    background: var(--heading-color);
+    text-align: start;
+    transition: all 0.3s;
+}
+.discover-slide-item:hover{
+    background: var(--primary-color);
+}
+.discover-slide-item:hover .dis-book-btn{
+    background: #fff;
+    color: var(--heading-color);
+}
+.dis-icon{
+    position: relative;
+    margin-bottom: 55px;
+}
+.dis-icon img{
+    width: 25%;
+}
+.dis-content h4{
+    color: #fff;
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.dis-content h4::after{
+    display: block;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.dis-content p{
+    margin-bottom: 35px;
+    color: #fff;
+}
+.dis-book-btn{
+    padding: 15px 30px;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    transition: all 0.3s;
+    color: #fff;
+}
+.dis-book-btn span{
+    display: inline-block;
+    margin-left: 3px;
+     font-size: 16px;
+    transition: all 0.35s;
+}
+.dis-book-btn:hover span{
+    transform: rotate(-45deg);
+}

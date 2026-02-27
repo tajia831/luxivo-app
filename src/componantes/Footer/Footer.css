@@ -1,0 +1,79 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.main-footer{
+    padding-top: 100px;
+    position: relative;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-footer::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 25, 33, 0.97);
+}
+/*----------------footer-top-----------------*/
+.footer-top-area{
+    background: var(--primary-color);
+    border-radius: 40px;
+    padding: 20px 40px;
+    z-index: 1;
+    position: relative;
+}
+.footer-info-box{
+    display: flex;
+    align-items: center;
+}
+.foo-icon{
+    flex: 0 0 auto;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--primary-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.foo-icon span{
+    display: flex;
+    align-items: center;
+}
+.foo-content span{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+}
+.foo-content h5{
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600px;
+    font-size: 18px;
+}
+/*--------------coptright-area----------------*/
+.coptright-area{
+    padding: 40px 0 45px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.8);
+}
+.coptright-area p{
+    margin-bottom: 0;
+}

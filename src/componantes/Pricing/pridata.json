@@ -1,0 +1,47 @@
+{
+
+  "price_cards": [
+    {
+      "plan": "Deluxe Room",
+      "price": 99,
+      "time": "Month",
+      "description": "Perfect for solo travelers or couples seeking elegant comfort.",
+      "features": [
+        "Queen-size bed",
+        "Smart room control",
+        "Free Wi-Fi",
+        "Complimentary breakfast",
+        "Daily housekeeping",
+        "Air conditioning"
+      ]
+    },
+    {
+      "plan": "Signature Suite",
+      "price": 199,
+      "time": "Month",
+      "description": "Perfect for solo travelers or couples seeking elegant comfort.",
+      "features": [
+        "Queen-size bed",
+        "Smart room control",
+        "Free Wi-Fi",
+        "Complimentary breakfast",
+        "Daily housekeeping",
+        "Air conditioning"
+      ]
+    },
+    {
+      "plan": "Deluxe Room",
+      "price": 299,
+      "time": "Month",
+      "description": "Perfect for solo travelers or couples seeking elegant comfort.",
+      "features": [
+        "Queen-size bed",
+        "Smart room control",
+        "Free Wi-Fi",
+        "Complimentary breakfast",
+        "Daily housekeeping",
+        "Air conditioning"
+      ]
+    }
+  ]
+}

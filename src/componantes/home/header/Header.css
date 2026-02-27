@@ -1,0 +1,144 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+}
+.headers{
+    height: 1070px;
+    width: 100%;
+    position: relative;
+}
+.headers::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(22, 25, 33, 0.96);
+}
+.head-right{
+    position: absolute;
+    right: 30px;
+    top: 120px;
+    z-index: 1;
+    max-width: 340px;
+}
+.head-right img{
+    width: 100%;
+    border-radius: 30px;
+}
+.head-left{
+    position: absolute;
+    left: 30px;
+    bottom: 170px;
+    z-index: 1;
+    max-width: 340px;
+}
+.head-left img{
+    width: 100%;
+    border-radius: 30px;
+}
+.hero-text h1{
+    position: relative;
+    z-index: 2;
+    font-size: 120px;
+    color: #fff;
+    line-height: 1.08em;
+    font-family: var(--font-family);
+    top: 85%;
+}
+.hero-pbtn{
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    width: 50%;
+    bottom: 35%;
+    left: 30%;
+}
+.hero-pbtn p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 34px;
+}
+.explore-btn{
+    border-radius: 20px;
+    background: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    transition: all 0.3s;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 17px 30px;
+    display: inline;
+    align-items: center;
+    text-transform: capitalize;
+}
+.explore-btn:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+.explore-btn span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 25px;
+}
+.explore-btn:hover span {
+  transform: rotate(-45deg);
+}
+.avatar-text-box{
+    position: absolute;
+    bottom: 130px;
+    right: 20%;
+    z-index: 1;
+}
+.avatar-text-box h6{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.avarat-list{
+    display: flex;
+    color: #fff;
+}
+.avarat-list ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.avarat-list ul li img{
+    width: 55px;
+    height: 55px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.avarat-list ul li span{
+    width: 55px;
+    height: 55px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avarat-text{
+    color: #fff;
+    max-width: 200px;
+    padding-left: 16px;
+    border-left: 2px solid #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.item1 {
+  margin-left: -15px;
+}

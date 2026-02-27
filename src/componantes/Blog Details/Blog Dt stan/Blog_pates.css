@@ -1,0 +1,111 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.part-para{
+    font-size: 17px;
+    color: var(--para-color);
+    line-height: 28px;
+}
+/*---------------Blog_pates_2--------------*/
+.pat-h4{
+    font-size: 24px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.eur-layout{
+    background: #f4f6f8;
+    padding: 35px 26px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    color: #666;
+    font-weight: 300;
+    box-shadow: 0px 1px 2px 0px rgba(10, 0, 58, 0.14);
+    border: 1px solid #f3f4f8;
+    border-radius: 10px;
+}
+.quo-icon{
+    color: var(--primary-color);
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+.layout-p{
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 23px;
+    color: var(--heading-color);
+    text-transform: inherit;
+}
+.bl-details-bot{
+    padding: 30px 0;
+    border-top: 1px solid rgba(131, 131, 131, 0.3);
+    border-bottom: 1px solid rgba(131, 131, 131, 0.3);
+    margin: 40px 0 0;
+    display: flex;
+    align-items: center;
+}
+.tag-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-right: 20px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    margin-bottom: 0;
+}
+.part-of-comment{
+    margin-top: 50px;
+}
+.pt-reply{
+    font-size: 1.75rem;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+    line-height: 1.27em;
+    font-family: var(--font-family);
+}
+.comment-input{
+    margin-bottom: 30px;
+}
+.comment-input input{
+    width: 100%;
+    background: #f4f6f8;
+    border-radius: 5px;
+    color: var(--unit-heading-font-color);
+    font-weight: 300;
+    font-size: 15px;
+    display: block;
+    padding: 17px 25px;
+    height: 60px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.comment-input textarea{
+    width: 100%;
+    height: 123px;
+    background: #f4f6f8;
+    border-radius: 5px;
+    color: var(--unit-heading-font-color);
+    font-weight: 300;
+    font-size: 15px;
+    display: block;
+    padding: 17px 25px;
+    height: 60px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    resize: none;
+}

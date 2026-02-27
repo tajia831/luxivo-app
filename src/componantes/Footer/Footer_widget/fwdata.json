@@ -1,0 +1,40 @@
+{
+
+"quickLinks" : {
+  "title": "Quick Links",
+  "links": [
+    { "label": "About Hotel"},
+    { "label": "Rooms & Suites"},
+    { "label": "Services"},
+    { "label": "News & media"},
+    { "label": "Our Team"},
+    { "label": "Contact"}
+  ]
+},
+
+"usefullinks" : {
+  "title": "Useful Links",
+  "links": [
+    { "label": "Rooms & Suites"},
+    { "label": "Offers"},
+    { "label": "Our Team"},
+    { "label": "Our Gallery"},
+    { "label": "Pricing"},
+    { "label": "Faqs"}
+  ]
+  },
+
+ "posts": [
+    {
+      "image": "/assets/foot1.webp",
+      "date": "October 05, 2025",
+      "title": "Inside the Luxury What Makes Our Hotel"
+    },
+    {
+      "image": "/assets/foot2.webp",
+      "date": "October 22, 2025",
+      "title": "A Touch Above in Every Feature of"
+    }
+  ]
+
+}

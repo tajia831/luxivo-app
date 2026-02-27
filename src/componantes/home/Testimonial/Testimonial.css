@@ -1,0 +1,77 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.testimonial{
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.testimonial-title h2{
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+/*------------------------------*/
+.testmonial-item{
+    width: 615px;
+    background-color: var(--gray-color);
+    border: 1px solid var(--border-color);
+    padding: 40px;
+    border-radius: 30px;
+    border-top: 4px solid transparent;
+    transition: all 0.3s;
+    text-align: start;
+}
+.testmonial-item:hover{
+    border-color: var(--primary-color);
+}
+.test-rating-quote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.quote span{
+    font-size: 36px;
+    color: var(--primary-color);
+    align-items: start;
+    display: flex;
+}
+.test-ratings span{
+    color: #FF9500;
+}
+.test-para{
+    margin-bottom: 35px;
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 30px;
+}
+.author-thumb{
+    display: flex;
+    align-items: center;
+}
+.author-img{
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+}
+.author-img img{
+    border-radius: 50%;
+}
+.author-info h5{
+    font-size: 18px;
+    line-height: 1.1;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.author-posirion{
+    color: var(--text-color);
+}

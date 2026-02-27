@@ -1,0 +1,51 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+}
+.room-Comfor{
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.ro-com-h2{
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+/*----------------luxury-filter-nav-btns---------------*/
+.luxury-filter-nav{
+    margin-bottom: 60px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.luxury-filter-nav ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.luxury-filter-nav li {
+    list-style: none;
+}
+.luxury-filter-nav li a{
+    color: var(--heading-color);
+    text-decoration: none;
+    padding: 18px 30px;
+    line-height: 1;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid var(--border-color);
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.luxury-filter-nav li:hover a{
+    background-color: var(--primary-color);
+    color: #fff !important;
+}

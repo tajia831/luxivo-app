@@ -1,0 +1,58 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.welcome{
+    padding-top: 120px;
+}
+.ab-contant-box{
+    margin-bottom: 60px;
+}
+.about-h5{
+    font-size: 18px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    margin-top: 25px;
+}
+/*----------slider------------*/
+.about-slider{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.about-thim{
+    position: relative;
+}
+.about_slid_img{
+    border-radius: 30px;
+}
+.ab-hover-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 25, 33, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.ab-hover-content span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+.about-thim:hover .ab-hover-content{
+    visibility: visible;
+    opacity: 1;
+}

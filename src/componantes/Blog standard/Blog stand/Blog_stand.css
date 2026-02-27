@@ -1,0 +1,93 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.blog-st-area{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.bl-img{
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+    width: 100%;
+}
+.bl-post-con{
+    padding: 35px 40px 40px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 4px 21px 1px rgba(48, 123, 196, 0.1);
+}
+.icon-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 22px !important;
+    row-gap: 5px;
+    padding: 0;
+}
+.icon-list li{
+    margin-right: 15px;
+    padding-right: 15px;
+    text-transform: capitalize;
+    font-size: 17px;
+    list-style: none;
+    font-weight: 300;
+}
+.icon-list li a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.icon-list li span{
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+.bl-title{
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+.bl-para{
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+.bl-read-btn{
+    display: inline-block;
+    padding: 18px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+.bl-read-btn:hover{
+    background-color: var(--heading-color);
+}
+.bl-read-btn span{
+    font-size: 24px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.bl-read-btn:hover span {
+  transform: rotate(-45deg);
+}
+.bl-post2{
+    margin-top: 50px;
+}
+.bl-side{
+    margin-left: 40px;
+}

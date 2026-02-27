@@ -1,0 +1,143 @@
+{"rooms_see":[
+  {
+    "image": "/assets/room-grid/room-grid1.webp",
+    "title": "Deluxe Family Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+  {
+    "image": "/assets/room-grid/room-grid2.webp",
+    "title": "Exclusive Deluxe Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+  {
+    "image": "/assets/room-grid/room-grid3.webp",
+    "title": "Double Suite Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+  {
+    "image": "/assets/room-grid/room-grid4.webp",
+    "title": "Signature Suites Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+      {
+      "image": "/assets/room-grid/room-grid5.webp",
+      "title": "Royal Prestige Suite",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    },
+    {
+      "image": "/assets/room-grid/room-grid6.webp",
+      "title": "Royal Prestige Suite",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    },
+    {
+      "image": "/assets/room-grid/room-grid7.webp",
+      "title": "Exclusive Weekend Getaway",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    },
+    {
+      "image": "/assets/room-grid/room-grid8.webp",
+      "title": "Industry Experience Hotel",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    }
+],
+
+"room_lux":[
+  {
+    "image": "/assets/room-grid/room-grid1.webp",
+    "title": "Deluxe Family Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+   {
+      "image": "/assets/room-grid/room-grid6.webp",
+      "title": "Royal Prestige Suite",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    }
+],
+
+"suits_room":[
+  {
+    "image": "/assets/room-grid/room-grid2.webp",
+    "title": "Exclusive Deluxe Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+   {
+    "image": "/assets/room-grid/room-grid4.webp",
+    "title": "Signature Suites Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  }
+  ],
+
+  "del_room":[
+  {
+    "image": "/assets/room-grid/room-grid3.webp",
+    "title": "Double Suite Rooms",
+    "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+  },
+   {
+      "image": "/assets/room-grid/room-grid7.webp",
+      "title": "Exclusive Weekend Getaway",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    }
+  ],
+
+  "twi_room":[
+    {
+      "image": "/assets/room-grid/room-grid5.webp",
+      "title": "Royal Prestige Suite",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    },
+   {
+      "image": "/assets/room-grid/room-grid8.webp",
+      "title": "Industry Experience Hotel",
+      "rating": 5,
+    "price": 750,
+    "price_duration": "per night",
+    "meta": { "size": "250 sqm", "beds": "3 bed", "bathrooms": "3 bathroom" }
+    }
+  ]
+}

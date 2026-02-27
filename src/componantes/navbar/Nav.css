@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+}
+.main-scroll{
+    background: var(--heading-color) !important;
+    position: fixed !important;
+    top: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.main-head{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 999;
+    
+}
+.main-menu{
+    height: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*------------------nav-menu------------------*/
+.nav-menu ul{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    align-items: center;
+    position: relative;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding: 40px 0px;
+    transition: all 0.2s;
+    color: #fff;
+}
+.nav-menu li:hover a{
+    color: var(--text-color);
+}
+.drop-maun li{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-radius: 7px;
+    box-shadow: 0px 30px 80px 15px rgba(0, 0, 0, 0.09);
+    background: #fff;
+    transition: all 0.2s;
+    padding: 10px 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.drop-maun li a{
+    padding: 5px 20px;
+    margin: 5px;
+    color: #000;
+    transition: all 0.3s ease-out 0s;
+    
+}
+.drop-maun li a:hover{
+    transform: translateX(6px);
+    color: var(--primary-color);
+    
+}
+.nav-menu li:hover > .drop-maun li{
+    visibility: visible;
+    opacity: 1;
+    top: 44px;
+}
+/*------------------nav-btn------------------*/
+.Quote-btn{
+    border-radius: 20px;
+    background: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    transition: all 0.3s;
+}
+.Quote-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 30px;
+    display: inline-block;
+}
+.Quote-btn:hover{
+    background: #fff;
+}
+.Quote-btn a:hover{
+    color: var(--primary-color);
+}
+.Quote-btn span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.Quote-btn:hover span {
+  transform: rotate(-45deg);
+}

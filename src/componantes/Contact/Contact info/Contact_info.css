@@ -1,0 +1,58 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.con-info-input{
+    padding-left: 30px;
+}
+.info-h3{
+    font-size: 36px;
+    line-height: 1.27em;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    margin-bottom: 50px;
+}
+.f-group input{
+    width: 100%;
+    padding: 12px 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.f-group textarea{
+    width: 100%;
+    height: 130px;
+    padding: 12px 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    resize: none;
+    outline: none;
+}
+.send-btn{
+    display: inline-block;
+    padding: 18px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+.send-btn:hover{
+    background: var(--heading-color);
+}

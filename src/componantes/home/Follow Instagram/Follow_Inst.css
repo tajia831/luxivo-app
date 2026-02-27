@@ -1,0 +1,87 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.follow-div{
+    padding-top: 110px;
+    padding-bottom: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: #FEF9F4;
+}
+.follow-text{
+    margin-bottom: 55px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.follow-text h5{
+    display: inline-block;
+    padding: 0 30px;
+    background-color: #FEF9F4;
+    font-weight: 500;
+    text-transform: capitalize;
+    z-index: 2;
+    position: relative;
+}
+.follow-text::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    top: 15px;
+    left: 0;
+    background-color: #E6E5E5;
+    z-index: 1;
+}
+/*--------------slider-------------------*/
+.gallery-item{
+    position: relative;
+}
+.thumbnail{
+    width: 221px;
+    border-radius: 30px;
+    margin: 0 !important;
+}
+.hover-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 25, 33, 0.77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.gallery-item:hover .hover-content{
+    visibility: visible;
+    opacity: 1;
+}
+.hover-content span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    transform: translateY(-30px);
+    transition: all 0.4s;
+}
+.gallery-item:hover .hover-content span{
+    transform: translateY(0);
+}

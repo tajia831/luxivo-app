@@ -1,0 +1,93 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --para-color: #929292;
+}
+.sidebar-area{
+    position: sticky;
+    top: 50px;
+}
+.sidebar-booking{
+    background: var(--gray-color);
+    border-radius: 30px;
+    padding: 30px 40px;
+}
+.side-title-h4{
+    font-size: 30px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}
+.side-title-h4::after{
+    display: block;
+    content: "";
+    margin-top: 5px;
+    width: 100px;
+    height: 1px;
+    background-color: var(--primary-color);
+    margin-bottom: 32px;
+}
+.side-group label{
+    text-transform: capitalize;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}
+.side-group input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 16px 20px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    outline: none;
+    text-transform: capitalize;
+}
+.side-group select{
+    width: 100%;
+    border-radius: 20px;
+    padding: 16px 20px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    appearance: none;
+    outline: none;
+    text-transform: capitalize;
+}
+.check-box{
+    margin-bottom: 6px;
+}
+.chek{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+}
+.chek-text{
+    color: var(--primary-color);
+    font-size: 17px;
+}
+.side-btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase;
+        font-weight: 600;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    margin-top: 30px;
+    transition: all 0.3s;
+}
+.side-btn:hover{
+    background: var(--heading-color);
+}

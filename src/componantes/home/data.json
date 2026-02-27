@@ -1,0 +1,402 @@
+{
+  "title": "Find The Best Place",
+  "shapes": [
+    { "src": "/assets/shape1.webp", "alt": "" },
+    { "src": "/assets/shape2.webp", "alt": "" },
+    { "src": "/assets/shape3.webp", "alt": "" }
+  ],
+  "form": {
+    "row1": [
+      {
+        "type": "text",
+        "label": "your name",
+        "placeholder": "Your Name",
+        "class": "name"
+      },
+      {
+        "type": "date",
+        "label": "Check In",
+        "class": "date"
+      }
+    ],
+    "row2": [
+      {
+        "dropdown": {
+          "label": "Rooms & Guests",
+          "placeholder": "select option",
+          "icon": "GoChevronDown",
+          "items": [
+            "Action",
+            "Another action",
+            "Something else here"
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "label": "Phone Number",
+        "placeholder": "Phone Number",
+        "class": "number"
+      }
+    ],
+    "button": {
+      "text": "book now",
+      "class": "theme",
+      "href": "#"
+    }
+  },
+
+
+  "swipers":[
+  {
+    "image": "/assets/slider-img1.webp",
+    "rating": 4.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "250 sqm",
+      "beds": "3 Bed",
+      "bathrooms": "3 Bathroom"
+    },
+    "price": 750,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img.webp",
+    "rating": 2.5,
+    "title": "deluxe prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "450 sqm",
+      "beds": "2 Bed",
+      "bathrooms": "2 Bathroom"
+    },
+    "price": 750,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img1.webp",
+    "rating": 4.9,
+    "title": "exckustve prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "300 sqm",
+      "beds": "3 Bed",
+      "bathrooms": "2 Bathroom"
+    },
+    "price": 650,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img2.webp",
+    "rating": 6.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "550 sqm",
+      "beds": "4 Bed",
+      "bathrooms": "3 Bathroom"
+    },
+    "price": 850,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img3.webp",
+    "rating": 4.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "250 sqm",
+      "beds": "3 Bed",
+      "bathrooms": "3 Bathroom"
+    },
+    "price": 750,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img4.webp",
+    "rating": 2.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "250 sqm",
+      "beds": "2 Bed",
+      "bathrooms": "2 Bathroom"
+    },
+    "price": 350,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img2.webp",
+    "rating": 4.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "250 sqm",
+      "beds": "3 Bed",
+      "bathrooms": "3 Bathroom"
+    },
+    "price": 750,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img.webp",
+    "rating": 3.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "250 sqm",
+      "beds": "1 Bed",
+      "bathrooms": "1 Bathroom"
+    },
+    "price": 250,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img3.webp",
+    "rating": 4.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "250 sqm",
+      "beds": "3 Bed",
+      "bathrooms": "3 Bathroom"
+    },
+    "price": 750,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  },
+  {
+    "image": "/assets/slider-img2.webp",
+    "rating": 5.9,
+    "title": "royal prestige suite",
+    "description": "experience a serene stay in out beautifully designed deluxe room perfect",
+    "meta": {
+      "size": "650 sqm",
+      "beds": "3 Bed",
+      "bathrooms": "3 Bathroom"
+    },
+    "price": 650,
+    "price_unit": "/Per Night",
+    "details_text": "view details",
+    "details_link": "#"
+  }
+],
+
+
+
+"swiper2":[
+  {
+    "icon": "/assets/icon-6.webp",
+    "title": "speed internet",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-5.webp",
+    "title": "air condition",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-7.webp",
+    "title": "smart lock",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-8.webp",
+    "title": "gym center",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-5.webp",
+    "title": "air condition",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-6.webp",
+    "title": "speed internet",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-7.webp",
+    "title": "smart lock",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-8.webp",
+    "title": "gym center",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  },
+  {
+    "icon": "/assets/icon-6.webp",
+    "title": "speed internet",
+    "description": "Enjoy ultra-fast, reliable Wi-Fi throughout the property whether you are working remotely, streaming your favorite",
+    "button": {
+      "text": "book now",
+      "icon": "FaArrowRight",
+      "url": "#"
+    }
+  }
+],
+
+
+
+"testimonials": [
+  {
+    "text":
+      "Immerse yourself in luxury and freshness with stunning ocean views and beach just a few steps away. Enjoy the sweet breath of the sea with elegant and luxurious rooms, opposite the beach voted by Forbes magazine",
+    "authorImage": "/assets/avatar-img1.webp",
+    "authorName": "amanda nicole",
+    "authorPosition": "CEO,AB Tech"
+  },
+  {
+    "text":
+      "Immerse yourself in luxury and freshness with stunning ocean views and beach just a few steps away. Enjoy the sweet breath of the sea with elegant and luxurious rooms, opposite the beach voted by Forbes magazine",
+    "authorImage": "/assets/avatar-img2.webp",
+    "authorName": "Brooklyn Simmons",
+    "authorPosition": "CEO,AB Tech"
+  },
+  {
+    "text":
+      "Immerse yourself in luxury and freshness with stunning ocean views and beach just a few steps away. Enjoy the sweet breath of the sea with elegant and luxurious rooms, opposite the beach voted by Forbes magazine",
+    "authorImage": "/assets/avatar-img3.webp",
+    "authorName": "Sarah Taylor",
+    "authorPosition": "CEO,AB Tech"
+  },
+  {
+    "text":
+      "Immerse yourself in luxury and freshness with stunning ocean views and beach just a few steps away. Enjoy the sweet breath of the sea with elegant and luxurious rooms, opposite the beach voted by Forbes magazine",
+    "authorImage": "/assets/avatar-img1.webp",
+    "authorName": "amanda nicole",
+    "authorPosition": "CEO,AB Tech"
+  },
+  {
+    "text":
+      "Immerse yourself in luxury and freshness with stunning ocean views and beach just a few steps away. Enjoy the sweet breath of the sea with elegant and luxurious rooms, opposite the beach voted by Forbes magazine",
+    "authorImage": "/assets/avatar-img2.webp",
+    "authorName": "Brooklyn Simmons",
+    "authorPosition": "CEO,AB Tech"
+  },
+  {
+    "text":
+      "Immerse yourself in luxury and freshness with stunning ocean views and beach just a few steps away. Enjoy the sweet breath of the sea with elegant and luxurious rooms, opposite the beach voted by Forbes magazine",
+    "authorImage": "/assets/avatar-img3.webp",
+    "authorName": "Brooklyn Simmons",
+    "authorPosition": "CEO,AB Tech"
+  }
+],
+
+
+"blogData": [
+  {
+    "image": "/assets/blog1.webp",
+    "author": "luxivo",
+    "comments": 1,
+    "title": "Inside the Luxury What Makes Our Hotel Unique"
+  },
+  {
+    "image": "/assets/blog2.webp",
+    "author": "luxivo",
+    "comments": 0,
+    "title": "Unveiling the Charm Inside Our Signature Experience"
+  },
+  {
+    "image": "/assets/blog3.webp",
+    "author": "luxivo",
+    "comments": 2,
+    "title": "Appropriately initiate resource through line metrics"
+  }
+],
+
+
+
+"galleryData":[
+  {
+    "image": "/assets/gallery-img1.webp"
+  },
+  {
+    "image": "/assets/gallery-img2.webp"
+  },
+  {
+    "image": "/assets/gallery-img3.webp"
+  },
+  {
+    "image": "/assets/gallery-img4.webp"
+  },
+  {
+    "image": "/assets/gallery-img5.webp"
+  },
+  {
+    "image": "/assets/gallery-img6.webp"
+  },
+  {
+    "image": "/assets/gallery-img3.webp"
+  },
+  {
+    "image": "/assets/gallery-img5.webp"
+  },
+  {
+    "image": "/assets/gallery-img4.webp"
+  }
+]
+
+
+}
+
+

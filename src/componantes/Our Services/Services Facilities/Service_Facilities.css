@@ -1,0 +1,50 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.services-2{
+    padding-top: 115px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+.service-iconic{
+    border-radius: 30px;
+    padding: 40px 30px 35px;
+    background-color: var(--gray-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-img{
+    margin-bottom: 20px;
+}
+.line{
+    position: relative;
+    display: inline-block;
+    background-color: var(--primary-color);
+    width: 1px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.line::after{
+    position: absolute;
+    bottom: 0;
+    left: -2px;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: var(--primary-color);
+    transform: rotate(45deg);
+}
+.ser-con h5{
+    font-size: 18px;
+    line-height: 1.1;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}

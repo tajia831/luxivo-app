@@ -1,0 +1,53 @@
+{ "data_1": {
+  "top_item": "01. Ocean & Beach",
+  "title": "Deluxe Family Rooms",
+  "description":
+    "Recently refurbished in an individual and elegant style, enjoy the comfort of a luxurious Corrib Room.",
+  "price": {
+    "from": 250,
+    "per": "Per Night"
+  },
+  "features": [
+    { "icon": "/assets/room-list/icon-1.webp", "text": "Free Wi-Fi" },
+    { "icon": "/assets/room-list/icon-2.webp", "text": "Mini Bar" },
+    { "icon": "/assets/room-list/icon-3.webp", "text": "Smart TV" },
+    { "icon": "/assets/room-list/icon-4.webp", "text": "Jacuzzi" }
+  ]
+},
+
+
+"data_2": {
+  "top_item": "02.Nature & Garden",
+  "title": "Double Suite Rooms",
+  "description":
+    "Recently refurbished in an individual and elegant style, enjoy the comfort of a luxurious Corrib Room.",
+  "price": {
+    "from": 650,
+    "per": "Per Night"
+  },
+  "features": [
+    { "icon": "/assets/room-list/icon-1.webp", "text": "Free Wi-Fi" },
+    { "icon": "/assets/room-list/icon-2.webp", "text": "Mini Bar" },
+    { "icon": "/assets/room-list/icon-3.webp", "text": "Smart TV" },
+    { "icon": "/assets/room-list/icon-4.webp", "text": "Jacuzzi" }
+  ]
+},
+
+
+"data_3": {
+  "top_item": "03.Luxury & Romance",
+  "title": "Royal Prestige Suite",
+  "description":
+    "Recently refurbished in an individual and elegant style, enjoy the comfort of a luxurious Corrib Room.",
+  "price": {
+    "from": 450,
+    "per": "Per Night"
+  },
+  "features": [
+    { "icon": "/assets/room-list/icon-1.webp", "text": "Free Wi-Fi" },
+    { "icon": "/assets/room-list/icon-2.webp", "text": "Mini Bar" },
+    { "icon": "/assets/room-list/icon-3.webp", "text": "Smart TV" },
+    { "icon": "/assets/room-list/icon-4.webp", "text": "Jacuzzi" }
+  ]
+}
+}

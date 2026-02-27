@@ -1,0 +1,39 @@
+{"blog_item": [
+  {
+    "image": "/assets/blog1.webp",
+    "author": "luxivo",
+    "comments": 1,
+    "title": "Inside the Luxury What Makes Our Hotel Unique"
+  },
+  {
+    "image": "/assets/blog2.webp",
+    "author": "luxivo",
+    "comments": 0,
+    "title": "Unveiling the Charm Inside Our Signature Experience"
+  },
+  {
+    "image": "/assets/blog3.webp",
+    "author": "luxivo",
+    "comments": 2,
+    "title": "Appropriately initiate resource through line metrics"
+  },
+  {
+    "image": "/assets/blog2.webp",
+    "author": "luxivo",
+    "comments": 4,
+    "title": "Start resources appropriately using line metrics."
+  },
+  {
+    "image": "/assets/blog3.webp",
+    "author": "luxivo",
+    "comments": 2,
+    "title": "Where Luxury Meets Personality Our Hotel Story"
+  },
+  {
+    "image": "/assets/blog1.webp",
+    "author": "luxivo",
+    "comments": 0,
+    "title": "A Touch Above in Every Feature of Our Hotel"
+  }
+]
+}

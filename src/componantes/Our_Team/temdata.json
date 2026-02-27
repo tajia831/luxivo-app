@@ -1,0 +1,76 @@
+{
+  "team_section": [
+    {
+      "name": "Leslie Alexander",
+      "position": "CEO & Founder",
+      "image": "/assets/team/team-img1.webp",
+      "background_shape": "assets/team/shape.webp",
+      "social_links": [
+        { "platform": "facebook", "icon": "RiFacebookFill", "url": "#" },
+        { "platform": "twitter", "icon": "FaTwitter", "url": "#" },
+        { "platform": "instagram", "icon": "IoLogoInstagram", "url": "#" },
+        { "platform": "linkedin", "icon": "FaLinkedinIn", "url": "#" }
+      ]
+    },
+    {
+      "name": "Michael Bennett",
+      "position": "Executive Manager",
+      "image": "/assets/team/team-img2.webp",
+      "background_shape": "assets/team/shape.webp",
+      "social_links": [
+        { "platform": "facebook", "icon": "RiFacebookFill", "url": "#" },
+        { "platform": "twitter", "icon": "FaTwitter", "url": "#" },
+        { "platform": "instagram", "icon": "IoLogoInstagram", "url": "#" },
+        { "platform": "linkedin", "icon": "FaLinkedinIn", "url": "#" }
+      ]
+    },
+    {
+      "name": "Daniel Carter",
+      "position": "Relations Manager",
+      "image": "/assets/team/team-img3.webp",
+      "background_shape": "assets/team/shape.webp",
+      "social_links": [
+        { "platform": "facebook", "icon": "RiFacebookFill", "url": "#" },
+        { "platform": "twitter", "icon": "FaTwitter", "url": "#" },
+        { "platform": "instagram", "icon": "IoLogoInstagram", "url": "#" },
+        { "platform": "linkedin", "icon": "FaLinkedinIn", "url": "#" }
+      ]
+    },
+    {
+      "name": "Leslie Alexander",
+      "position": "CEO & Founder",
+      "image": "/assets/team/team-img4.webp",
+      "background_shape": "assets/team/shape.webp",
+      "social_links": [
+        { "platform": "facebook", "icon": "RiFacebookFill", "url": "#" },
+        { "platform": "twitter", "icon": "FaTwitter", "url": "#" },
+        { "platform": "instagram", "icon": "IoLogoInstagram", "url": "#" },
+        { "platform": "linkedin", "icon": "FaLinkedinIn", "url": "#" }
+      ]
+    },
+    {
+      "name": "Michael Bennett",
+      "position": "Executive Manager",
+      "image": "/assets/team/team-img5.webp",
+      "background_shape": "assets/team/shape.webp",
+      "social_links": [
+        { "platform": "facebook", "icon": "RiFacebookFill", "url": "#" },
+        { "platform": "twitter", "icon": "FaTwitter", "url": "#" },
+        { "platform": "instagram", "icon": "IoLogoInstagram", "url": "#" },
+        { "platform": "linkedin", "icon": "FaLinkedinIn", "url": "#" }
+      ]
+    },
+    {
+      "name": "Daniel Carter",
+      "position": "Relations Manager",
+      "image": "/assets/team/team-img6.webp",
+      "background_shape": "assets/team/shape.webp",
+      "social_links": [
+        { "platform": "facebook", "icon": "RiFacebookFill", "url": "#" },
+        { "platform": "twitter", "icon": "FaTwitter", "url": "#" },
+        { "platform": "instagram", "icon": "IoLogoInstagram", "url": "#" },
+        { "platform": "linkedin", "icon": "FaLinkedinIn", "url": "#" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.bl-search{
+    margin: 0 0 40px;
+    padding: 35px;
+    box-shadow: 0px 4px 21px 1px rgba(48, 123, 196, 0.1);
+    border-radius: 15px;
+}
+.si-se-form{
+    position: relative;
+}
+.si-se-form input{
+    background: #fff;
+    width: 100%;
+    font-weight: 300;
+    font-size: inherit;
+    text-transform: capitalize;
+    padding: 0px 60px 0px 20px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid #dfdada;
+    outline: none;
+}
+.bl-sub-btn{
+    width: 55px;
+    height: 55px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.recent-post{
+    margin: 0 0 40px;
+    padding: 35px;
+    box-shadow: 0px 4px 21px 1px rgba(48, 123, 196, 0.1);
+    border-radius: 15px;
+}
+.recent-heder{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}
+.recent-post ul{
+    margin: 0;
+    padding: 0;
+}
+.recent-post li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.recent-post li a{
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.recent-post li a:hover {
+    color: var(--primary-color);
+}
+.recent-arrow li span{
+    padding-right:5px;
+    font-size: 20px;
+}
+.tags-btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+.tags-btns a{
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    padding: 3px 15px;
+    border-radius: 3px;
+    transition: 0.3s;
+    background: transparent;
+    color: var(--text-color);
+    line-height: 1.6em;
+    border: 1px solid #dfdada;
+    text-transform: capitalize;
+}
+.tags-btns a:hover{
+    background: var(--primary-color);
+    color: #fff;
+}

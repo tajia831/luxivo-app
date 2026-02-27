@@ -1,0 +1,102 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.swims{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.swims-cards{
+    margin-bottom: 60px;
+    align-items: center;
+}
+.swims-content{
+    position: relative;
+}
+.swim-number{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 120px;
+    line-height: 84px;
+    color: #D8DDE1;
+    font-family: var(--font-family);
+}
+.swim-title{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.swim-title::after{
+    display: inline-block;
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: var(--primary-color);
+    margin-left: 12px;
+}
+.swim-text a{
+    margin-bottom: 37px;
+    display: inline-block;
+    font-size: 48px;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    text-decoration: none;
+}
+.swi-line{
+    margin-left: 65px;
+    background-color: var(--primary-color);
+    width: 1px;
+    height: 50px;
+    margin-bottom: 22px;
+    display: inline-block;
+}
+.swi-para{
+    max-width: 565px;
+    margin-bottom: 52px;
+    color: var(--para-color);
+    line-height: 30px;
+    font-size: 17px;
+}
+.swim-btn{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: all 0.3s ease-out 0s;
+}
+.swim-btn:hover{
+    background: var(--primary-color);
+}
+.swim-btn:hover span{
+    color: #fff;
+}
+.swim-btn span{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-out 0s;
+}
+.swim-imgs{
+    max-width: 440px;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+.swim-img2{
+    max-width: 475px;
+    border-radius: 30px;
+}

@@ -1,0 +1,72 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+    --para-color: #929292;
+}
+.con-booling{
+    padding-bottom: 120px;
+    padding-top: 110px;
+}
+.con-text-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.con-text-box h3{
+    font-size: 36px;
+    line-height: 1.27em;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    margin-bottom: 30px;
+}
+.con-text-box p{
+    font-size: 18px;
+    line-height: 1.27em;
+    color: var(--primary-color);
+}
+.con-box-info{
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    padding: 40px;
+}
+.con-inner{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 35px 30px 40px;
+    text-align: center;
+}
+.con-inner h3{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.27em;
+    font-family: var(--font-family);
+}
+.con-inner p{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.27em;
+}
+.con-so-box a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #D8DDE1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease-out 0s;
+}
+.con-so-box a:hover{
+    background: #fff;
+    color: var(--primary-color);
+}

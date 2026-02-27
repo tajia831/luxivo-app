@@ -1,0 +1,113 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --para-color: #929292;
+}
+.ocean{
+    padding-top: 120px;
+}
+.ocean-item{
+    margin-bottom: 120px;
+}
+.ocean-img{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.ocean-img img{
+    border-radius: 30px;
+}
+.oce-img1{
+    width: 40%;
+}
+.ocean-content{
+    padding-left: 25px;
+}
+.oc-top-item{
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.oc-title{
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.27em;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}
+.oc-pata{
+    margin-bottom: 25px;
+    color: var(--para-color);
+    line-height: 30px;
+    font-size: 17px;
+}
+.oc-price{
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.oc-price span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: var(--para-color);
+}
+.icon-left-oc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.oc-left-icon{
+    flex: 0 0 auto;
+    margin-right: 16px;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-text{
+        font-size: 24px;
+    line-height: 1.3em;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    margin-bottom: 0;
+}
+.oc-btn{
+    border: 1px solid var(--border-color);
+    padding: 15px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    color: var(--heading-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    transition: all 0.3s;
+}
+.oc-btn span{
+    margin-left: 5px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+.oc-btn:hover{
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+}
+.oc-btn:hover span {
+  transform: rotate(-45deg);
+}

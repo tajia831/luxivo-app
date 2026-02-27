@@ -1,0 +1,39 @@
+:root{
+    --font-family: "Gilda Display", serif;
+}
+.Counting{
+    padding-top: 110px;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.Counting::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 25, 33, 0.8);
+}
+.visible-count{
+    z-index: 1;
+    position: relative;
+}
+.count-content{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.count-content h2{
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: #fff;
+    font-size: 64px;
+    line-height: 1.25em;
+}
+.count-content p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,138 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+    --border-color: #d8dde1;
+}
+.contact-one{
+    background: var(--gray-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.contact-bg-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.contact-info{
+    background-color: var(--heading-color);
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 335px;
+    text-align: center;
+}
+.contact-info img{
+    width: 100%;
+}
+.contact-info span{
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.contact-call{
+    font-size: 36px;
+    line-height: 1.27em;
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+.contact-call a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-bg-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    opacity: 0.05;
+}
+.contact-box{
+    display: flex;
+    justify-content: end;
+}
+.contact-booking{
+    background: #fff;
+    padding: 60px 70px;
+    border-radius: 30px;
+    position: relative;
+}
+.booking-title{
+    margin-bottom: 50px;
+}
+.booking-title span{
+    margin-bottom: 10px;
+}
+.booking-title h2{
+    font-family: var(--font-family);
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.booking-title p{
+    color: var(--text-color);
+    line-height: 30px;
+}
+.from-group label{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--heading-color);
+    display: block;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.from-group input{
+    width: 100%;
+    padding: 15px 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    outline: 0;
+    color: var(--text-color);
+}
+.massage-box{
+    padding: 12px 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    max-height: 218px;
+    width: 100%;
+    outline: 0;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.check-btn{
+    display: flex;
+}
+.check-btn a{
+    width: 100%;
+    padding: 18px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+.check-btn:hover a{
+    background: var(--heading-color);
+}

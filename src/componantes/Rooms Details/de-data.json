@@ -1,0 +1,101 @@
+{
+    "stander_data":[
+  {
+    "image": "/assets/Rooms-Details/icon-1.webp",
+    "title": "3 Guests"
+  },
+  {
+    "image": "/assets/Rooms-Details/icon-2.webp",
+    "title": "3 Children"
+  },
+  {
+    "image": "/assets/Rooms-Details/icon-3.webp",
+    "title": "40 m2"
+  },
+  {
+    "image": "/assets/Rooms-Details/icon-4.webp",
+    "title": "2 beds"
+  },
+  {
+    "image": "/assets/Rooms-Details/icon-5.webp",
+    "title": "2 baths"
+  },
+  {
+    "image": "/assets/Rooms-Details/icon-6.webp",
+    "title": "$250/ night"
+  }
+],
+
+
+"data_1d" : {
+  "roomDescription": {
+    "title": "Room Description",
+    "text": "The European boutique design of our Standard Rooms with Matterhorn view includes either two single beds or a huge Queen Size double bed. There is accommodation for one additional bed in the spacious living room with couch. Enjoy the breathtaking views of the Matterhorn, some clean mountain air, and the gentle afternoon light while lounging on the south-facing balcony's lounge chairs.",
+    "text2": "Enjoy the splendor of Amsterdam's vistas from this opulent accommodation. Each room is elegantly decorated with a remarkably comfortable bed and a modern environment. It also offers access to Nagomi Health and The Lounge, where you can relax and enjoy light refreshments and drinks whenever you want."
+  },
+
+  "roomRules": {
+    "title": "Room Rules",
+    "rules": [
+      "Check-in time: From 3:00 PM",
+      "Check-out time: By 11:00 AM",
+      "Early check-in / late check-out: Subject to availability and may incur additional charges.",
+      "Maximum occupancy: Please adhere to the specified room capacity for safety and comfort.",
+      "All rooms are non-smoking. A deep cleaning fee will apply if smoking occurs inside.",
+      "Daily housekeeping service is provided unless otherwise requested.",
+      "Requests for extra bedding, baby cots, or amenities should be made in advance."
+    ]
+  }
+},
+
+
+
+ "servicesAmenities": {
+    "title": "Services & Amenities",
+    "items": [
+      { "icon": "FaWifi", "label": "Free Wi-Fi" },
+      { "icon": "FaTv", "label": "Smart TV" },
+      { "icon": "FaSwimmer", "label": "Swimming Pool" },
+      { "icon": "CiDumbbell", "label": "Fitness Center" },
+      { "icon": "TbBed", "label": "King Size Bed" },
+      { "icon": "FaHeadset", "label": "24/7 Support" },
+      { "icon": "FaShower", "label": "Shower" },
+      { "icon": "LuRefrigerator", "label": "Refrigerator" },
+      { "icon": "LuPlaneLanding", "label": "Airport transport" }
+    ]
+  },
+
+
+  "ro_Features":{
+  "features": [
+    "Children and extra beds",
+    "Coffee/Tea Maker",
+    "Climate Control",
+    "High-End Bedding",
+    "Art and Decor",
+    "Smart Technology"
+  ]
+},
+
+"check_box":{
+  "extraServices": [
+    {
+      "id": "gridCheck",
+      "label": "Room Clean : $15 / Night"
+    },
+    {
+      "id": "gridCheck1",
+      "label": "Parking : Free"
+    },
+    {
+      "id": "gridCheck2",
+      "label": "Gym & Spa : $20 / Total"
+    },
+    {
+      "id": "gridCheck3",
+      "label": "Dinner : $25 / day"
+    }
+  ]
+}
+
+}

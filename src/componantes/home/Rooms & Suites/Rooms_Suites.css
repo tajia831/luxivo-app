@@ -1,0 +1,230 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+}
+.room-suites{
+    background: var(--gray-color);
+    padding: 120px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.room-bg-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    z-index: 1;
+}
+.room-bg-img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 25, 33, 0.6);
+    z-index: 1;
+}
+.room-section-title{
+    margin-bottom: 45px;
+}
+.rsub-title{
+    margin-top: 20px;
+    margin-bottom: 13px;
+    display: block;
+    font-size: 20px;
+    line-height: 1;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.room-section-title h2{
+    font-size: 48px;
+    line-height: 1.25em;
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+.room-arrows{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+}
+.arrow-btn{
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+}
+.arrow{
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.arrow:hover{
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.arrow span{
+    color: #fff;
+    display: flex;
+}
+/*--------------Room_slider-------------------*/
+.room-sliders{
+    display: flex;
+    justify-content: end;
+    margin-right: -40%;
+    user-select: none;
+    touch-action: pan-y;
+}
+.slick-list{
+    width: 93%;
+}
+.room-item{
+    width: 426px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+.room-img{
+    position: relative;
+}
+.room-img img{
+    border-radius: 20px;
+}
+.rate{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 20px;
+    padding: 3px 11px;
+    background: var(--primary-color);
+    color: #fff;
+    
+}
+.rate span{
+    margin-right: 7px;
+    display: inline-flex;
+    align-items: center;
+}
+.room-content{
+    padding-top: 25px;
+}
+.room-content a{
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: start;
+    display: block;
+    font-weight: 500;
+    transition: all 0.3s ease-out 0s;
+}
+.room-content a:hover{
+    color: var(--text-color);
+}
+.room-content p{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: start;
+    color: #979797;
+}
+.room-meta {
+    padding: 10px 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.room-meta p{
+    display: flex;
+    margin-bottom: 0;
+}
+.room-meta span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: var(--text-color);
+}
+.room-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    color: var(--heading-color);
+    font-size: 24px;
+    font-family: var(--font-family);
+}
+.price span{
+    color: var(--text-color);
+    font-size: 16px;
+}
+.rom-view a{
+    border: 1px solid #ddd;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: var(--heading-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+}
+.rom-view a span{
+    margin-left: 10px;
+    transition: all 0.35s;
+}
+.rom-view a:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+.rom-view a:hover span {
+  transform: rotate(-45deg);
+}
+/*--------swiper-css--------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

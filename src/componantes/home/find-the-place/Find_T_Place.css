@@ -1,0 +1,124 @@
+:root{
+    --font-family: "Gilda Display", serif;
+    --text-color: #565656;
+    --primary-color: #6D7C6A;
+    --secondary-col: #E3572B;
+    --gray-color: #F8F8F8;
+    --heading-color: #161921;
+}
+.find{
+    background: var(--gray-color);
+    position: relative;
+    padding-bottom: 60px;
+}
+.search-wrapper{
+    padding: 50px 0 50px;
+}
+.shape-1{
+    position: absolute;
+    left: 85px;
+    bottom: 70px;
+}
+.shape-2{
+    position: absolute;
+    right: 75px;
+    top: 60px;
+}
+.shape-text h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.27em;
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+.shape-3{
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+    
+}
+.input-site{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.labels{
+    display: block;
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    padding-bottom: 13px;
+    font-size: 18px;
+    color: var(--heading-color);
+}
+.name{
+    width: 50%;
+}
+.date{
+    width: 50%;
+}
+.input-1{
+    padding: 0;
+}
+.input-1 input{
+    width: 90%;
+    padding: 17px 20px;
+    line-height: 1;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    color: var(--text-color);
+    background-color: #fff;
+    font-size: 17px;
+    outline: none;
+}
+.input-2{
+    justify-content: space-between;
+}
+.select-bar{
+    width: 50%;
+}
+.guests{
+    text-align: start;
+    border: 1px solid #ddd;
+    padding: 17px 20px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.guests:hover{
+    border: 1px solid #ddd;
+}
+.number{
+    width: 50%;
+}
+.input-2 input{
+    width: 90%;
+    padding: 17px 20px;
+    line-height: 1;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    color: var(--text-color);
+    background-color: #fff;
+    outline: none;
+}
+.theme{
+    padding: 18px 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+.theme:hover{
+    background: var(--heading-color);
+}
